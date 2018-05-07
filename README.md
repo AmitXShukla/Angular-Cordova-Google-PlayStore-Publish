@@ -105,10 +105,13 @@ $ cordova run android
 if emulator is slow for any reason, please skip this and generate android debug.apk file.
 
 #### generate keytools file
+keytool -genkey -v -keystore mnjic.keystore -alias mnjic -keyalg RSA -keysize 2048 -validity 10000
 
-sign app - 
+Sign app
 
-cordova run android --release -- --keystore=../my-release-key.keystore --storePassword=password --alias=alias_name --password=password.
+cordova run android --release -- --keystore=mnjic.keystore --storePassword=abcd --alias=mnjic --password=abcd
+
+this command above will generate same entries as below mentioned in build.json
 
 #### review build.json
 
@@ -131,8 +134,8 @@ cordova run android --release -- --keystore=../my-release-key.keystore --storePa
     }
 }
 
-#### cordova build
-#### $ cordova build --release   
+#### $ cordova build  // this command will build a signed apk file
+#### $ cordova build --release   // this command will build final apk
 
 // build with release flag will generate a final app file which can be submitted to Google Play Store.
 
