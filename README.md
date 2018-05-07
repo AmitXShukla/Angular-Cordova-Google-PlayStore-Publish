@@ -7,20 +7,32 @@ This github repository is a documentation on how to publish an Angular 6.0/react
 https://cordova.apache.org/docs/en/latest/
 
 
-#### Step
+#### Development tasks
+Before you start, if you don't already have, please download and Install android studio and configure sdk tools from
+https://developer.android.com/studio/
+
+make sure android licenses are accepted
+
+make sure android path/environment variables are setup properly
+
+** for iOS development, you will need a mac machine with latest XCODE installed.
+
+**** Let's get started
+
 cordova -v  // check if 8.0.0 or latest cordova version is installed<br>
-cordova create mnjic com.elishconsulting.mnjic Mnjic<br>
+cordova create mnjic com.elishconsulting.mnjic Mnjic<br>  
+create a new cordova app <br>
 < cordova create appname com.domain.project appname >
 
-cd mnjic
+cd mnjic // once app is created, browse into new app folder
 
-cordova platform add browser
+cordova platform add browser // add platform browser
 
-cordova platform add android
+cordova platform add android  // add platform android
 
-cordova platform add ios
+cordova platform add ios // add platform ios
 
-cordova plaform ls
+cordova plaform ls // list all platforms
 
 install jdk and make sure JAVA_HOME is setup properly
 
@@ -45,12 +57,16 @@ echo $ANDROID_HOME
 
 echo $PATH
 
+#### cordova requirements // check if cordova app is properly installed
+in some case, if may ask you to update Android SDK through Android Studio.
 
-install android studio and configure sdk tools
+and install gradle.
 
-make sure android licenses are accepted
+$ java -version<br>
+java version "1.8.0_121"
 
-make sure android path/environment variables are setup properly
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install gradle
 
 #### App Setting changes
 config.xml changes (make sure < android > setting are changed)  
