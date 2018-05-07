@@ -65,11 +65,17 @@ and install gradle.
 $ java -version<br>
 java version "1.8.0_121"
 
+install gradle  https://gradle.org/install/
+
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+install brew  https://brew.sh/
+
 brew install gradle
 
 #### App Setting changes
 config.xml changes (make sure < android > setting are changed)  
+
 - please see src directory for config.xml sample
 
 apply following changes
