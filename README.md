@@ -20,6 +20,8 @@ make sure android path/environment variables are setup properly
 ** Let's get started
 
 $ cordova -v  // check if 8.0.0 or latest cordova version is installed<br>
+if cordova is not installed or you have an older version <br>
+$ npm install -g cordova<br>
 $ cordova create mnjic com.elishconsulting.mnjic Mnjic<br>  
 create a new cordova app <br>
 < cordova create appname com.domain.project appname >
