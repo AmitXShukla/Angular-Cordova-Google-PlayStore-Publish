@@ -24,12 +24,35 @@ cordova plaform ls
 
 install jdk and make sure JAVA_HOME is setup properly
 
+#### Run these commands on your MACOS terminal window
+#### On windows machine, please make sure SYSTEM > Env Variables JAVA_HOME and ANDROID_HOME are set properly
+which java
+
+java -version
+
+export JAVA_HOME=/Library/Java/Home
+
+echo $JAVA_HOME
+
+echo $ANDROID_HOME
+
+#### if ANDROID_HOME is not setup correctly,
+export ANDROID_HOME=~/Library/Android/sdk
+
+export PATH=${PATH}:~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools
+
+echo $ANDROID_HOME
+
+echo $PATH
+
+
 install android studio and configure sdk tools
 
 make sure android licenses are accepted
 
 make sure android path/environment variables are setup properly
 
+#### App Setting changes
 config.xml changes (make sure < android > setting are changed)  
 - please see src directory for config.xml sample
 
