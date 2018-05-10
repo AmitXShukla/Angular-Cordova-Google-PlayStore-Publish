@@ -1,6 +1,8 @@
 #### Angular-Cordova-Google-PlayStore-Publish
 How to publish Angular 6 app to Google Play Store using Cordova
 
+<A HREF="https://youtu.be/Vfcy1xHR83c" target="_blank">click here for video tutorials!</a>
+
 #### Objective:
 This github repository is a documentation on how to publish an Angular 6.0/react JS or any HTML, JavaScript app to Google play store using Apache Cordova Framework.
 
