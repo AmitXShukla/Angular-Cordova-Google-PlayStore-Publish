@@ -1,5 +1,5 @@
 #### Angular-Cordova-Google-PlayStore-Publish
-How to publish Angular 6 app to Google Play Store using Cordova
+How to publish Angular app to Google Play Store using Cordova
 
 <A HREF="https://youtu.be/Vfcy1xHR83c" target="_blank">click here for video tutorials!</a>
 
