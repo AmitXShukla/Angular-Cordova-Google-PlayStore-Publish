@@ -1,4 +1,7 @@
-## Please give a Star * to this repository if you like this project.
+```diff
++ if you like this project, Please consider,
+- following me on GitHub & a generous STAR * to this repository.
+```
 #### Angular-Cordova-Google-PlayStore-Publish
 How to publish Angular app to Google Play Store using Cordova
 
